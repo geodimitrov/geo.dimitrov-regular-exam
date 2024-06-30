@@ -24,5 +24,7 @@ jobs:
       run: npm run test:unit
     
     - name: Display SoftUni Username
-      run: echo 'geo.dimtrov'
-      
+      run: echo 'geo.dimitrov'
+    
+    - name: Run UI Tests
+      run: nmp run test:ui
