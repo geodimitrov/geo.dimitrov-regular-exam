@@ -27,4 +27,4 @@ jobs:
       run: echo 'geo.dimitrov'
     
     - name: Run UI Tests
-      run: nmp run test:ui
+      run: npm run test:ui
